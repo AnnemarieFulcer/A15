@@ -200,11 +200,13 @@ footer p {
     main { flex-direction: column; }
     section, aside{float: none;}
     aside{
+        order:2;
         padding-right: 2.5%;
         width: 97.5%;
     }
     section{
         width: 97.5%;
+        order: 1;
     }
     article img{
         max-width: 30%;
